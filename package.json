@@ -10,6 +10,7 @@
     "node": ">=6.0"
   },
   "scripts": {
+    "install": "npm run compile",
     "compile": "babel src --out-dir out",
     "compile:watch": "npm run compile -- --watch",
     "docs": "esdoc -c esdoc.json",
