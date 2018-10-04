@@ -1,5 +1,13 @@
 # broken-link-checker-local
 
+## Fork Notice
+
+This is a fork of [LukasHechenberger/broken-link-checker-local](https://github.com/LukasHechenberger/broken-link-checker-local).
+
+Purpose of fork:
+
+- fix issue #14: https://github.com/LukasHechenberger/broken-link-checker-local/issues/14
+
 > Find broken links, missing images, etc in your HTML, even in local files.
 
 [![CircleCI](https://circleci.com/gh/LukasHechenberger/broken-link-checker-local.svg?style=shield&circle-token=5f7572151da460505166029bdfeefbc32d6bc720)](https://circleci.com/gh/LukasHechenberger/broken-link-checker-local)

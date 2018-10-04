@@ -113,7 +113,8 @@ export default class BrokenLinkChecker {
         // Add options passed to blc
         args = args.concat(this._argv);
 
-        const blc = spawn(require.resolve('broken-link-checker/bin/blc'), args, {
+        // blc script cannot be spawned directly on Windows
+        const blc = spawn('node', [require.resolve('broken-link-checker/bin/blc'), ...args], {
           stdio: 'inherit',
         });
 
